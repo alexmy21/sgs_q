@@ -1,0 +1,13 @@
+[project]
+name = "sgs-q"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "matplotlib>=3.10.0",
+    "pennylane>=0.40.0",
+    "pylatexenc>=2.10",
+    "qiskit-machine-learning[torch]>=0.8.2",
+    "torch-geometric>=2.6.1",
+]
